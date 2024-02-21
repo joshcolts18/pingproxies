@@ -1,5 +1,4 @@
 {
-  "openapi": ["/openapi.json"],
   "name": "Starter Kit",
   "logo": {
     "dark": "/logo/dark.svg",
@@ -75,11 +74,215 @@
       ]
     },
     {
-      "group": "testing here.....",
+      "group": "Utilities",
       "pages": [
-        "api-reference/residential/list",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/testing"
+        "api-reference/utilities/retrieve-iso-country-codes",
+        "api-reference/utilities/retrieve-ip-address-geolocation",
+        "api-reference/utilities/retrieve-iso-language-codes",
+        "api-reference/utilities/geocode-address"
+      ]
+    },
+    {
+      "group": "API Key",
+      "pages": [
+        "api-reference/api-key/create-api-key",
+        "api-reference/api-key/delete-api-key",
+        "api-reference/api-key/retrieve-api-key",
+        "api-reference/api-key/search-api-keys"
+      ]
+    },
+    {
+      "group": "API Request",
+      "pages": [
+        "api-reference/api-request/api-request-analytics",
+        "api-reference/api-request/retrieve-api-request",
+        "api-reference/api-request/search-api-requests"
+      ]
+    },
+    {
+      "group": "ASN",
+      "pages": [
+        "api-reference/asn/retrieve-asn",
+        "api-reference/asn/search-asn"
+      ]
+    },
+    {
+      "group": "Balance Transaction",
+      "pages": [
+        "api-reference/balance-transaction/retrieve-balance-transaction",
+        "api-reference/balance-transaction/search-balance-transactions"
+      ]
+    },
+    {
+      "group": "Cart",
+      "pages": [
+        "api-reference/cart/calculate-validate-cart"
+      ]
+    },
+    {
+      "group": "Checkout",
+      "pages": [
+        "api-reference/checkout/create-checkout"
+      ]
+    },
+    {
+      "group": "City",
+      "pages": [
+        "api-reference/city/retrieve-city",
+        "api-reference/city/search-city"
+      ]
+    },
+    {
+      "group": "Continent",
+      "pages": [
+        "api-reference/continent/retrieve-continent",
+        "api-reference/continent/search-continent"
+      ]
+    },
+    {
+      "group": "Country",
+      "pages": [
+        "api-reference/country/retrieve-country",
+        "api-reference/country/search-country"
+      ]
+    },
+    {
+      "group": "Customer",
+      "pages": [
+        "api-reference/customer/edit-customer-details",
+        "api-reference/customer/customer-login",
+        "api-reference/customer/customer-logout",
+        "api-reference/customer/customer-clear-all-sessions",
+        "api-reference/customer/oauth-authorization-url-retrieval",
+        "api-reference/customer/customer-oauth-reset",
+        "api-reference/customer/customer-password-reset",
+        "api-reference/customer/retrieve-current-customer",
+        "api-reference/customer/security-lock-current-customer",
+        "api-reference/customer/customer-signup"
+      ]
+    },
+    {
+      "group": "Invoice",
+      "pages": [
+        "api-reference/invoice/pay-invoice",
+        "api-reference/invoice/pay-invoice-option",
+        "api-reference/invoice/release-invoice-cart",
+        "api-reference/invoice/retrieve-invoice",
+        "api-reference/invoice/search-invoices"
+      ]
+    },
+    {
+      "group": "Log",
+      "pages": [
+        "api-reference/log/log-analytics",
+        "api-reference/log/retrieve-log",
+        "api-reference/log/search-logs"
+      ]
+    },
+    {
+      "group": "Log Summary",
+      "pages": [
+        "api-reference/log-summary/retrieve-log-summary",
+        "api-reference/log-summary/search-log-summary"
+      ]
+    },
+    {
+      "group": "Notification",
+      "pages": [
+        "api-reference/notification/mark-notification-as-read",
+        "api-reference/notification/retrieve-notification",
+        "api-reference/notification/search-notifications"
+      ]
+    },
+    {
+      "group": "Payment Method",
+      "pages": [
+        "api-reference/payment-method/delete-payment-method",
+        "api-reference/payment-method/edit-payment-method",
+        "api-reference/payment-method/retrieve-payment-method",
+        "api-reference/payment-method/search-payment-methods",
+        "api-reference/payment-method/set-up-payment-method"
+      ]
+    },
+    {
+      "group": "Product",
+      "pages": [
+        "api-reference/product/search-product"
+      ]
+    },
+    {
+      "group": "Proxy",
+      "pages": [
+        "api-reference/proxy/proxy-edit",
+        "api-reference/proxy/retrieve-proxy-list-by-id",
+        "api-reference/proxy/retrieve-proxy-list-by-search",
+        "api-reference/proxy/retrieve-proxy",
+        "api-reference/proxy/search-proxies"
+      ]
+    },
+    {
+      "group": "Proxy User",
+      "pages": [
+        "api-reference/proxy-user/create-proxy-user",
+        "api-reference/proxy-user/delete-proxy-user-record",
+        "api-reference/proxy-user/edit-proxy-user",
+        "api-reference/proxy-user/retrieve-proxy-user",
+        "api-reference/proxy-user/search-proxy-users"
+      ]
+    },
+    {
+      "group": "Residential",
+      "pages": [
+        "api-reference/residential/create-residential-list",
+        "api-reference/residential/retrieve-residential-service-summary"
+      ]
+    },
+    {
+      "group": "Residential Ledger",
+      "pages": [
+        "api-reference/residential-ledger/retrieve-residential-ledger",
+        "api-reference/residential-ledger/search-residential-ledger"
+      ]
+    },
+    {
+      "group": "Service",
+      "pages": [
+        "api-reference/service/cancel-service",
+        "api-reference/service/edit-service",
+        "api-reference/service/reconfigure-an-existing-service",
+        "api-reference/service/calculate-reconfiguration-details-for-a-service",
+        "api-reference/service/retrieve-reconfigure-options-for-a-service",
+        "api-reference/service/retrieve-service",
+        "api-reference/service/search-services"
+      ]
+    },
+    {
+      "group": "Service Adjustment",
+      "pages": [
+        "api-reference/service-adjustment/retrieve-service-adjustment",
+        "api-reference/service-adjustment/search-service-adjustments"
+      ]
+    },
+    {
+      "group": "Subdivision",
+      "pages": [
+        "api-reference/subdivision/retrieve-subdivision",
+        "api-reference/subdivision/search-subdivision"
+      ]
+    },
+    {
+      "group": "Subscription Schedule",
+      "pages": [
+        "api-reference/subscription-schedule/delete-subscription-schedule",
+        "api-reference/subscription-schedule/retrieve-subscription-schedule",
+        "api-reference/subscription-schedule/search-subscription-schedules"
+      ]
+    },
+    {
+      "group": "Transaction",
+      "pages": [
+        "api-reference/transaction/retrieve-transaction",
+        "api-reference/transaction/search-transactions"
       ]
     }
   ],
